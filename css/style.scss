@@ -5,7 +5,7 @@
 @import'cards';
 @import'clients';
 @import'photos';
-
+@import'footer';
 // ----- General settings -----
 
 body
@@ -15,58 +15,5 @@ body
   margin: 0 auto;
 }
 
-footer
-{
-  background-color:$bg-footer;
 
-}
-
-#logo
-{
-  width: 10rem;
-  filter: brightness(0) invert(39%) sepia(67%) saturate(323%) hue-rotate(118deg) brightness(90%) contrast(90%);
-  margin-top:30px;
-  margin-left: 45%;
-
-
-
-}
-
-.ulContainer
-{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6rem;
-  margin: 3.2rem 0;
-li {
-  font-size: 1.7rem;
-  text-decoration: none;
-  color: $dark-moderate-cyan;
-
-  &:hover {
-    color: $white;
-    cursor: pointer;
-  }
-}
-}
-
-.socialMedia {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
-
-  list-style: none;
-
-  padding-bottom: 60px;
-
-  a {
-    img {
-      &:hover {
-        filter: brightness(0) invert(100%);
-      }
-    }
-  }
-}
 
