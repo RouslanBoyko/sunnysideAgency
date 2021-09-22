@@ -72,6 +72,14 @@ header img:nth-child(3) {
 }
 .container .card button {
   margin-left: 225px;
+  background-color: #fff;
+  border-radius: 50px;
+}
+.container .card #btn1:hover {
+  background-color: #fad400;
+}
+.container .card #btn2:hover {
+  background-color: #fe7867;
 }
 .container .card a {
   font-family: "Fraunces", serif;

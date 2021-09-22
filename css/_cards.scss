@@ -5,8 +5,11 @@
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+
+
   .card
   {
+
     height: 600px;
     h2
     {
@@ -28,7 +31,18 @@
     button
     {
       margin-left: 225px;
+      background-color:#fff;
+      border-radius:50px;
+
     }
+    #btn1:hover
+    {
+      background-color:$yellow;
+    }
+    #btn2:hover{
+      background-color:$soft-red;
+    }
+
     a
     {
 
