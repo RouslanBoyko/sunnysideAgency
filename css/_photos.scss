@@ -1,0 +1,36 @@
+// ----- Photos settings -----
+
+.photosContainer
+{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  .photos
+  {
+    height:400px;
+  }
+
+  #photo1
+  {
+    background-image: url(../media/img/image-gallery-milkbottles.jpg);
+    background-size: cover ;
+    background-position: center;
+  }
+  #photo2
+  {
+    background-image: url(../media/img/image-gallery-orange.jpg);
+    background-size: cover ;
+    background-position: center;
+  }
+  #photo3
+  {
+    background-image: url(../media/img/image-gallery-cone.jpg);
+    background-size: cover ;
+    background-position: center;
+  }
+  #photo4
+  {
+    background-image: url(../media/img/image-gallery-sugarcubes.jpg);
+    background-size: cover ;
+    background-position: center;
+  }
+}

@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,600;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,700;0,900;1,700;1,900&display=swap");
-body {
-  font-size: 18px;
-  width: 1440px;
-  margin: 0 auto;
-}
-
 header {
   background-image: url(../media/img/image-header.jpg);
   background-size: cover;
@@ -31,9 +25,9 @@ header li {
   font-weight: normal;
 }
 header li:hover {
-  background-color: #FDFFFF;
+  background-color: white;
   border-radius: 25px;
-  color: #2A2D32;
+  color: #a7abae;
   cursor: pointer;
   font-family: "Barlow", sans-serif;
 }
@@ -57,23 +51,162 @@ header img:nth-child(3) {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-.container .card1 {
-  background-color: blue;
+.container .card {
+  height: 600px;
 }
-.container .card2 {
-  background-image: url("media/img/image-transform.jpg");
+.container .card h2 {
+  text-align: center;
+  margin-top: 150px;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 3.2rem;
+  color: #23303e;
 }
-.container .card3 {
-  background-image: url("media/img/image-transform.jpg");
+.container .card p {
+  font-size: 1.75rem;
+  text-align: center;
+  margin: 2.5rem 0 3.5rem 0;
+  line-height: 3rem;
+  color: #818498;
 }
-.container .card4 {
-  background-color: blue;
+.container .card button {
+  margin-left: 225px;
 }
-.container .card5 {
-  background-image: url("media/img/image-transform.jpg");
+.container .card a {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #23303e;
+  padding: 0 0.7rem;
 }
-.container .card6 {
-  background-image: url("media/img/image-transform.jpg");
+.container .card .lastH2 {
+  margin-top: 350px;
+}
+.container #card2 {
+  background-image: url(../media/img/image-transform.jpg);
+}
+.container #card3 {
+  background-image: url(../media/img/image-stand-out.jpg);
+}
+.container #card5 {
+  background-image: url(../media/img/image-graphic-design.jpg);
+}
+.container #card6 {
+  background-image: url(../media/img/image-photography.jpg);
+}
+
+h2:nth-child(2) {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin: 60px;
+  color: #a7abae;
+}
+
+.clientContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 50px;
+}
+.clientContainer img {
+  width: 22%;
+  border-radius: 50%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.clientContainer p {
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 3.4rem 0 3.1rem 0;
+  line-height: 3.2rem;
+  color: #818498;
+}
+.clientContainer h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #23303e;
+  text-align: center;
+}
+
+.photosContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.photosContainer .photos {
+  height: 400px;
+}
+.photosContainer #photo1 {
+  background-image: url(../media/img/image-gallery-milkbottles.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.photosContainer #photo2 {
+  background-image: url(../media/img/image-gallery-orange.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.photosContainer #photo3 {
+  background-image: url(../media/img/image-gallery-cone.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.photosContainer #photo4 {
+  background-image: url(../media/img/image-gallery-sugarcubes.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  font-size: 18px;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #91d4c6;
+}
+
+#logo {
+  width: 10rem;
+  filter: brightness(0) invert(39%) sepia(67%) saturate(323%) hue-rotate(118deg) brightness(90%) contrast(90%);
+  margin-top: 30px;
+  margin-left: 45%;
+}
+
+.ulContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  margin: 3.2rem 0;
+}
+.ulContainer li {
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: #458c7e;
+}
+.ulContainer li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  list-style: none;
+  padding-bottom: 60px;
+}
+.socialMedia a img:hover {
+  filter: brightness(0) invert(100%);
 }
 
 /*# sourceMappingURL=style.css.map */

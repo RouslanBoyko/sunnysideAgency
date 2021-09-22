@@ -1,0 +1,43 @@
+// ----- Clients settings -----
+h2:nth-child(2)
+{
+  font-family: 'Fraunces', serif; //700 or 900
+  font-weight: 900;
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin: 60px;
+  color: $grayish-blue;
+}
+.clientContainer
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 50px;
+  img
+  {
+    width: 22%;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-right:40%;
+  }
+  p
+  {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 3.4rem 0 3.1rem 0;
+    line-height: 3.2rem;
+    color: $dark-grayish-blue;
+  }
+  h2
+  {
+    font-family: $FontSecondary;
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: $very-dark-desaturated-blue;
+    text-align: center;
+  }
+
+}

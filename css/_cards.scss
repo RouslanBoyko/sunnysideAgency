@@ -1,0 +1,71 @@
+// ----- 6 cards settings -----
+.container
+{
+
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  .card
+  {
+    height: 600px;
+    h2
+    {
+      text-align: center;
+      margin-top:150px;
+      font-family: $FontSecondary; //700 or 900
+      font-weight: 900;
+      font-size: 3.2rem;
+      color: $very-dark-desaturated-blue;
+    }
+    p
+    {
+      font-size: 1.75rem;
+      text-align: center;
+      margin: 2.5rem 0 3.5rem 0;
+      line-height: 3rem;
+      color: $dark-grayish-blue
+    }
+    button
+    {
+      margin-left: 225px;
+    }
+    a
+    {
+
+      font-family: $FontSecondary;
+      font-weight: 900;
+      font-size: 1.7rem;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $very-dark-desaturated-blue;
+      padding: 0 0.7rem;
+
+    }
+    .lastH2
+    {
+      margin-top: 350px;
+    }
+
+  }
+  #card2
+  {
+    background-image: url(../media/img/image-transform.jpg) ;
+  }
+
+  #card3
+  {
+    background-image: url(../media/img/image-stand-out.jpg) ;
+  }
+
+  #card5
+  {
+    background-image: url(../media/img/image-graphic-design.jpg) ;
+  }
+
+  #card6
+  {
+    background-image: url(../media/img/image-photography.jpg) ;
+  }
+
+
+}
