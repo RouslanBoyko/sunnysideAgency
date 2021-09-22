@@ -1,0 +1,114 @@
+// ----- Import partials -----
+@import'police';
+@import'variables';
+
+// ----- General settings -----
+
+body
+{
+  font-size:18px;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+// ----- Header settings -----
+
+header
+{
+  background-image: url(../media/img/image-header.jpg);
+  background-size: cover ;
+  background-position: center;
+  width: 100%;
+  height:100vh;
+
+
+  a
+  {
+    text-decoration: none;
+  }
+  nav
+  {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  ul
+  {
+    display: flex;
+  }
+  li
+  {
+    padding: 30px;
+    color: #fff;
+    font-family: $FontPrimary;
+    font-weight: normal;
+    &:hover{
+      background-color:$ColorHover;
+      border-radius: 25px;
+      color: $TextHover;
+      cursor: pointer;
+      font-family: $FontPrimary;
+    }
+  }
+  img
+  {
+    padding: 30px;
+  }
+  h1
+  {
+    font-family: $FontPrimary;
+    font-weight: bold;
+    color: #fff;
+    font-size:60px;
+    text-align: center;
+    margin: 70px;
+  }
+  img:nth-child(3) // the arrow
+  {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+// ----- 6 cards settings -----
+.container
+{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  .card1
+  {
+    background-color: blue;
+
+  }
+
+  .card2
+  {
+    background-image: url('media/img/image-transform.jpg')
+
+  }
+
+  .card3
+  {
+    background-image: url('media/img/image-transform.jpg')
+
+  }
+
+  .card4
+  {
+    background-color: blue;
+
+  }
+
+  .card5
+  {
+    background-image: url('media/img/image-transform.jpg')
+
+  }
+  .card6
+  {
+    background-image: url('media/img/image-transform.jpg')
+
+  }
+
+}
+
