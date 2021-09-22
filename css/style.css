@@ -35,12 +35,13 @@ header img {
   padding: 30px;
 }
 header h1 {
-  font-family: "Barlow", sans-serif;
+  font-family: "Fraunces", serif;
   font-weight: bold;
   color: #fff;
   font-size: 60px;
   text-align: center;
   margin: 70px;
+  letter-spacing: 10px;
 }
 header img:nth-child(3) {
   display: block;

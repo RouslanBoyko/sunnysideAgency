@@ -43,12 +43,13 @@ header
   }
   h1
   {
-    font-family: $FontPrimary;
+    font-family: $FontSecondary;
     font-weight: bold;
     color: #fff;
     font-size:60px;
     text-align: center;
     margin: 70px;
+    letter-spacing:10px;
   }
   img:nth-child(3) // the arrow
   {
